@@ -1,0 +1,156 @@
+﻿NO.,"Age, y","Sex,  Female/Male",Site,"Rupture, yes/no","Aneurysm Size, mm","Neck Width, mm","Parent Artery Diameter, mm",Aspect Ratio,Size Ratio,"Surface Area, mm2","Volume, mm3",WSSmax,WSSmin,"LSA, %",TAWSS,OSI,Lateral/Bifurcation,Regular/Irregular,Stable Flow/Unstable Flow,Simple Flow/Complex Flow
+1,47,Female,L MCA,yes,4.7,3.63,2.64,1.29,1.78,69.71,60.41,1.9295,0.0039,6.94,0.2556,0.0063,Bifurcation,Regular,Stable,Simple
+,47,Female,L C7,no,2.51,3.32,3.3,0.76,0.76,22.92,15.74,3.0649,0.1,0.02,1.0367,0.004,Bifurcation,Regular,Stable,Simple
+2,47,Male,R MCA,yes,4.97,3.2,1.76,1.55,2.82,62.56,45.46,4.8691,0.0016,6.27,0.4375,0.0055,Bifurcation,Irregular,Unstable,Complex
+,47,Male,L MCA,no,1.78,2.48,1.9,0.72,0.94,13,5.52,3.8771,0.4426,0,1.513,0.0006,Bifurcation,Regular,Stable,Simple
+3,71,Female,L MCA,yes,9.29,5.72,4.09,1.62,2.27,152.34,241.45,3.8409,0.0123,0.8,0.9498,0.0291,Bifurcation,Regular,Unstable,Complex
+,71,Female,R MCA,no,6.24,6.33,3.27,0.99,1.91,150,235.25,3.8173,0.0184,0.23,0.8597,0.0886,Bifurcation,Regular,Unstable,Complex
+,71,Female,R C7 (1),no,3.28,4.6,4.19,0.71,0.78,47.84,42.37,3.0444,0.0282,1.23,0.6618,0.0195,Bifurcation,Regular,Stable,Simple
+,71,Female,R C7 (2),no,1.97,2.88,5.09,0.68,0.39,17.67,7.45,2.7898,0.0736,0,1.032,0.0033,Lateral,Regular,Stable,Simple
+4,48,Male,R C7,yes,6.46,3.97,4.04,1.63,1.6,109.4,105.42,2.3424,0.0196,1.82,0.4091,0.0058,Lateral,Irregular,Unstable,Complex
+,48,Male,R C5,no,3.09,3.24,4.19,0.96,0.74,29.88,16.42,2.3751,0.0736,0.08,0.9519,0.0012,Lateral,Regular,Stable,Simple
+5,75,Female,L ACoA,yes,4.44,3.86,2.4,1.15,1.85,51.06,30.86,3.3549,0.0158,10.82,0.4812,0.0071,Bifurcation,Irregular,Unstable,Complex
+,75,Female,L C5,no,1.86,3.25,5.23,0.57,0.36,15.32,9.55,3.0589,0.037,0,1.0777,0.0018,Lateral,Regular,Stable,Simple
+6,70,Female,L C7,yes,4.81,4.22,3.14,1.14,1.53,61.89,45.03,4.3988,0.0157,0.11,1.1417,0.0056,Lateral,Irregular,Unstable,Complex
+,70,Female,L MCA,no,1.75,1.81,1.75,0.97,1,10.77,7.71,2.6764,0.0269,0.24,0.9775,0.0054,Bifurcation,Regular,Stable,Simple
+7,60,Female,R C7,yes,3.84,2.78,3.8,1.38,1.01,34.33,18.79,2.8348,0.0215,0.21,0.71,0.0067,Lateral,Regular,Stable,Simple
+,60,Female,R MCA,no,2.5,2.58,2.73,0.97,0.91,26.2,11.45,2.9123,0.0191,0.08,0.7499,0.0047,Bifurcation,Regular,Stable,Simple
+8,69,Female,R C7,yes,3.27,3.05,3.72,1.07,0.88,30.33,16.78,2.3923,0.0027,2.64,0.5055,0.0272,Bifurcation,Irregular,Stable,Simple
+,69,Female,R C6,no,6.57,4.86,4.3,1.35,1.53,142.58,167.42,2.9071,0.0236,0.16,0.6485,0.0016,Lateral,Regular,Unstable,Complex
+9,83,Female,L C7,yes,4.28,5.54,3.06,0.77,1.4,65.76,57.22,3.3416,0.0068,0.01,0.8834,0.0288,Bifurcation,Irregular,Stable,Simple
+,83,Female,L C4,no,2.41,3.43,3.93,0.7,0.61,20.27,11.38,3.4376,0.0785,0,1.0881,0.0006,Lateral,Regular,Stable,Simple
+,83,Female,R C4,no,2.25,4.56,3.92,0.49,0.57,34.01,22.29,3.3123,0.0741,0,1.1589,0.0015,Lateral,Regular,Stable,Simple
+10,38,Female,R C7,yes,4.85,4.42,2.38,1.1,2.04,76.91,76.18,3.0115,0.0094,0.71,0.4585,0.0017,Lateral,Regular,Stable,Simple
+,38,Female,L C6,no,2.85,3.96,3.92,0.72,0.73,40.63,30.25,2.8724,0.149,0,0.9055,0.0078,Lateral,Regular,Stable,Simple
+11,55,Female,R C6,yes,3.15,3.44,3.95,0.92,0.8,28.93,20,2.6551,0.0635,0.05,0.7199,0.0053,Lateral,Regular,Stable,Simple
+,55,Female,L MCA,no,1.97,3.06,2.12,0.64,0.93,15.38,6.24,3.2499,0.0368,0.01,0.8961,0.0061,Lateral,Regular,Stable,Simple
+12,53,Female,R MCA,yes,16.07,5.72,2.98,2.81,5.39,425.96,662.74,3.6832,0.0003,65.5,0.1691,0.0336,Bifurcation,Irregular,Unstable,Complex
+,53,Female,L MCA,no,6.18,4.34,2.4,1.42,2.58,83.06,75.78,3.4602,0.0082,6.36,0.5479,0.0156,Bifurcation,Regular,Stable,Simple
+13,54,Female,R MCA,yes,5.26,2.55,1.37,2.06,3.84,38.87,21.67,4.595,0.0001,22.7,0.4435,0.0206,Bifurcation,Irregular,Unstable,Complex
+,54,Female,L MCA,no,3.14,3.05,1.85,1.03,1.7,32.84,24.01,2.6821,0.0088,0.32,0.6046,0.0037,Bifurcation,Regular,Stable,Simple
+14,77,Female,L C7,yes,8.27,7.76,2.89,1.07,2.86,202.95,232.88,3.5027,0.0115,0.95,0.9383,0.0307,Lateral,Irregular,Unstable,Complex
+,77,Female,L C4,no,2.65,3.89,4.78,0.68,0.55,20.41,12.99,3.106,0.0351,1.99,0.7118,0.0515,Lateral,Regular,Stable,Simple
+15,65,Female,R C7,yes,4.26,3.46,3.6,1.23,1.18,40.79,27.55,4.1104,0.0318,0,1.032,0.0063,Bifurcation,Regular,Stable,Simple
+,65,Female,LC6,no,3.23,3.15,4.36,1.03,0.74,30.59,17.1,2.6194,0.0315,0.12,0.913,0.0048,Lateral,Regular,Stable,Simple
+16,50,Female,L C7,yes,7.23,3.31,2.68,2.19,2.7,93.81,69.89,2.7309,0.0004,16.22,0.3746,0.0115,Lateral,Irregular,Unstable,Complex
+,50,Female,R C6,no,1.4,1.69,2.87,0.83,0.49,9.19,3.33,3.4831,0.1465,0,1.3419,0.0017,Lateral,Regular,Stable,Simple
+17,66,Female,R MCA,yes,2.69,3.63,2.9,0.74,0.93,26.34,21.05,3.1598,0.0129,2.46,0.8955,0.0109,Bifurcation,Regular,Stable,Simple
+,66,Female,R C5,no,4.13,5.11,4.86,0.81,0.85,58.11,65.23,2.926,0.0074,0.55,0.795,0.0094,Lateral,Regular,Unstable,Complex
+18,49,Female,R ACoA,yes,5.3,3.11,1.89,1.7,2.81,59.88,41.13,2.5217,0.0123,1.77,0.5697,0.002,Lateral,Irregular,Unstable,Complex
+,49,Female,R MCA,no,1.42,3.12,2.78,0.45,0.51,10.46,4.83,3.0414,0.0466,0,0.5424,0.1773,Bifurcation,Regular,Stable,Simple
+19,49,Female,R C7,yes,4.67,3.43,3.15,1.36,1.48,46.46,38.55,2.3141,0.0463,0.04,0.5652,0.0019,Bifurcation,Regular,Stable,Simple
+,49,Female,L C7,no,2.26,3.58,3.6,0.63,0.63,25,15.55,3.643,0.0064,0.06,0.8754,0.0449,Bifurcation,Regular,Stable,Simple
+20,39,Female,R C7,yes,3.81,1.88,3.1,2.03,1.23,27.48,10.85,1.7863,0.0054,45.85,0.2095,0.0079,Lateral,Regular,Stable,Simple
+,39,Female,R MCA,no,2.13,3.02,2.38,0.7,0.89,24.43,13.45,2.0167,0.0114,4.41,0.5172,0.0042,Bifurcation,Regular,Unstable,Complex
+21,77,Male,R MCA,yes,3.2,2.22,1.2,1.44,2.67,20.54,8.38,2.3914,0.0037,23,0.3051,0.0038,Bifurcation,Regular,Stable,Simple
+,77,Male,L MCA,no,3.35,3.61,1.98,0.93,1.69,38.56,23.06,4.5572,0.0524,0.5,1.1462,0.0237,Bifurcation,Regular,Unstable,Complex
+22,74,Female,L C7,yes,5.57,3.96,2.57,1.41,2.17,67.06,42.82,2.4887,0.0039,14.51,0.5667,0.0055,Lateral,Irregular,Unstable,Complex
+,74,Female,R MCA,no,3.39,2.38,2.07,1.42,1.64,27.46,14.29,2.7082,0.0424,0,0.6968,0.0033,Bifurcation,Regular,Stable,Simple
+23,58,Female,L C7,yes,4.47,3.19,2.72,1.4,1.64,39.96,19.44,2.3236,0.03,0.03,0.7005,0.0073,Bifurcation,Irregular,Unstable,Complex
+,58,Female,L C6,no,3.34,3.02,3.39,1.11,0.98,34.08,21.61,1.5353,0.0785,0.01,0.5385,0.0009,Lateral,Regular,Stable,Simple
+24,66,Female,L C7,yes,7.87,4.18,3.52,1.88,2.24,122.17,111.68,3.0996,0.0006,12.69,0.4959,0.0839,Bifurcation,Irregular,Unstable,Complex
+,66,Female,BA,no,3.75,3.87,2.75,0.97,1.37,55.06,48.11,2.5729,0.0125,1.94,0.6623,0.0065,Bifurcation,Regular,Stable,Complex
+25,66,Female,L C7,yes,4.62,3.76,3.22,1.23,1.44,45.2,27.66,2.1522,0.0113,1.05,0.7033,0.0815,Lateral,Regular,Stable,Simple
+,66,Female,L C4 (1),no,3.35,4.21,4.65,0.8,0.72,36.85,24.47,2.5806,0.0425,0.03,0.8804,0.0042,Lateral,Regular,Stable,Simple
+,66,Female,L C4 (2),no,1.2,2.47,3.97,0.48,0.3,9.66,2.69,2.4268,0.1026,0,0.6795,0.0028,Lateral,Regular,Stable,Simple
+26,71,Male,L ACoA,yes,4.54,3.04,2.51,1.5,1.81,38.96,24.72,3.1899,0.0044,15.09,0.3925,0.0137,Bifurcation,Regular,Stable,Simple
+,71,Male,L C6,no,2.87,3.25,4.46,0.88,0.64,29.09,17.64,2.8097,0.0182,0,0.7159,0.0746,Lateral,Regular,Stable,Simple
+27,43,Female,L C6,yes,5.55,2.86,3.16,1.94,1.76,62.18,41.35,1.6595,0.0007,17.23,0.3124,0.0097,Lateral,Irregular,Unstable,Complex
+,43,Female,L C7,no,2.14,2.16,2.55,0.99,0.84,15.97,8.03,2.3233,0.1064,0.21,0.7316,0.0027,Bifurcation,Regular,Stable,Simple
+28,52,Male,R ACoA,yes,5.39,3.24,2.62,1.67,2.06,38.85,28.29,2.8201,0.0042,9.81,0.5163,0.065,Bifurcation,Irregular,Stable,Simple
+,52,Male,R C6,no,2.36,4.45,6.17,0.53,0.38,33.76,24.32,4.7037,0.0053,0.97,0.7406,0.0177,Lateral,Regular,Stable,Simple
+29,51,Female,R C6,yes,7.42,5.87,3.6,1.26,2.06,187.49,249.13,3.0558,0.0042,0.83,0.4111,0.0367,Lateral,Irregular,Unstable,Complex
+,51,Female,R MCA,no,1.24,2.7,2.37,0.46,0.52,10.06,10,1.7978,0.0306,0.24,0.6085,0.0067,Bifurcation,Regular,Stable,Simple
+30,49,Male,R MCA,yes,3.57,2.3,2.24,1.55,1.59,22.84,18.99,4.8535,0.0464,0.16,0.6012,0.0028,Bifurcation,Regular,Stable,Simple
+,49,Male,L MCA,no,3.3,3.37,2.08,0.98,1.59,36.78,34.05,3.0871,0.0035,1.09,0.8133,0.0033,Bifurcation,Regular,Unstable,Complex
+31,66,Male,R C7,yes,7.66,5.5,4.51,1.39,1.7,123.13,129.82,3.1769,0.0079,10.8,0.5961,0.0449,Bifurcation,Irregular,Unstable,Complex
+,66,Male,L C7,no,5.75,5.03,4.39,1.14,1.31,75.5,72.94,3.6417,0.021,0.54,1.0038,0.0131,Bifurcation,Irregular,Stable,Simple
+32,66,Female,L C7,yes,5.12,5.63,4.67,0.91,1.1,74.39,63.73,2.8864,0.0156,2.76,0.8485,0.0275,Bifurcation,Irregular,Unstable,Complex
+,66,Female,L C6 ,no,3.48,3.35,4.96,1.04,0.7,44.94,28.66,2.7246,0.002,10.97,0.4612,0.0121,Lateral,Irregular,Unstable,Complex
+33,42,Male,L C6,yes,20.55,6.62,5.08,3.11,4.05,1032.37,2991.21,3.3288,0.0014,14.29,0.257,0.0356,Lateral,Irregular,Unstable,Complex
+,42,Male,R C6,no,4.33,4.85,5.76,0.89,0.75,66.4,64.68,2.8004,0.0044,0,0.7819,0.0523,Lateral,Regular,Stable,Simple
+34,78,Female,L C7,yes,7.39,4.71,3.76,1.57,1.97,134.91,126.53,3.0369,0.0029,14.47,0.3475,0.0275,Bifurcation,Irregular,Unstable,Complex
+,78,Female,R C7,no,2.25,3.83,3.33,0.59,0.67,25.78,15.35,2.5522,0.0399,0,0.8213,0.0012,Lateral,Regular,Stable,Simple
+,78,Female,R MCA,no,4.9,3.75,2.58,1.3,1.9,74.6,77.25,2.8116,0.1025,0,0.8053,0.0015,Bifurcation,Regular,Stable,Simple
+35,50,Female,R C7,yes,7.65,4.73,3.35,1.62,2.28,113.02,116.65,2.7777,0.012,0.41,0.7126,0.0053,Bifurcation,Regular,Unstable,Complex
+,50,Female,L C7  ,no,3.14,3.68,3.31,0.85,0.95,26.11,19.85,2.3759,0.05,0,0.7591,0.002,Lateral,Regular,Stable,Simple
+36,84,Female,L C7  ,yes,7.62,7.06,4.39,1.08,1.74,110.67,151.91,3.8842,0.0023,2.95,0.6792,0.0238,Bifurcation,Regular,Stable,Simple
+,84,Female,R C7,no,2.48,3.49,3.89,0.71,0.64,24.59,15.35,3.5334,0.0575,0.01,1.0483,0.0013,Lateral,Regular,Stable,Simple
+37,64,Female,R C7,yes,6.09,3.3,3.23,1.85,1.88,88.36,74.18,1.6067,0.002,70.51,0.1193,0.0109,Bifurcation,Irregular,Unstable,Complex
+,64,Female,R MCA,no,1.44,1.75,2.19,0.82,0.66,6.36,2.24,1.6261,0.0048,1.23,0.4281,0.032,Bifurcation,Regular,Unstable,Complex
+,64,Female,L C7,no,1.72,3.33,3.43,0.52,0.5,15.04,7.34,2.9078,0.0084,3.54,0.8427,0.0033,Lateral,Irregular,Stable,Simple
+38,68,Female,R ACA,yes,3.4,2.06,1.61,1.66,2.11,22.23,15.35,3.3566,0.0789,26.91,0.9272,0.0017,Bifurcation,Regular,Stable,Simple
+,68,Female,R C5,no,1.95,2.4,3.49,0.81,0.56,13.46,5.32,2.2733,0.07,0.09,0.9423,0.0044,Lateral,Regular,Stable,Simple
+39,64,Female,L C6,yes,8.66,6.52,4.3,1.33,2.01,195.45,305.95,2.8334,0.0218,0.27,0.5092,0.0029,Lateral,Irregular,Unstable,Complex
+,64,Female,L MCA,no,1.64,2.31,2.55,0.71,0.64,7.57,3.8,2.2932,0.1648,0,0.6932,0.0023,Lateral,Regular,Stable,Simple
+,64,Female,BA,no,8.55,5.77,2.68,1.48,3.19,221.81,363.01,3.8544,0.003,3.34,0.6918,0.0121,Lateral,Irregular,Unstable,Complex
+40,65,Female,R C7,yes,4.49,3.82,3.41,1.18,1.32,48.52,33.14,2.8172,0.0149,3.9,0.4872,0.0032,Lateral,Irregular,Unstable,Complex
+,65,Female,L C7  ,no,4.06,4.4,3.28,0.92,1.24,56.42,45.9,3.1165,0.038,0.06,0.8578,0.0019,Lateral,Regular,Stable,Simple
+41,53,Female,R MCA,yes,9.38,2.97,2.26,3.16,4.16,233.14,322.7,4.9652,0.0023,26.1,0.4328,0.0243,Bifurcation,Irregular,Unstable,Complex
+,53,Female,L MCA,no,3.11,4.59,2.83,0.68,1.1,38.81,30.98,3.6721,0.0201,0,1.0185,0.0172,Bifurcation,Regular,Stable,Simple
+42,58,Female,R C7,yes,4.77,3.08,3.4,1.55,1.4,39.26,27.71,4.0716,0.0171,2.83,0.5639,0.005,Bifurcation,Irregular,Stable,Complex
+,58,Female,L C7,no,6.11,3.99,2.8,1.53,2.18,74.69,69.22,3.5335,0.0066,9.23,0.6067,0.0142,Bifurcation,Irregular,Stable,Complex
+43,58,Female,R C7,yes,5.57,2.96,3.2,1.88,1.74,63.87,43.23,2.5291,0.0027,18.67,0.3158,0.0214,Lateral,Irregular,Unstable,Complex
+,58,Female,L C7,no,5.03,4.26,2.9,1.18,1.73,54.89,44.08,2.5525,0.0102,2.08,0.7337,0.0068,Lateral,Irregular,Stable,Simple
+44,72,Female,L C7,yes,4.98,4.66,4.06,1.07,1.23,58.59,69.25,3.1531,0.008,2.56,0.6013,0.0953,Bifurcation,Regular,Stable,Simple
+,72,Female,R C7,no,2.82,3.95,4.05,0.71,0.7,24.9,16.48,2.3284,0.0281,0,0.7616,0.0075,Lateral,Regular,Stable,Simple
+45,55,Female,R MCA,yes,3.46,3.33,2.59,1.04,1.34,44.41,31.7,3.8444,0.0109,0.15,0.3847,0.011,Bifurcation,Regular,Stable,Simple
+,55,Female,R C7,no,2.97,3.41,4.43,0.87,0.67,28.08,20.66,3.3965,0.0478,0.09,0.8462,0.0145,Bifurcation,Regular,Stable,Simple
+46,67,Female,L ACA (1),yes,7.06,5.17,2.01,1.37,3.51,158.28,194.02,3.6269,0.0005,37.02,0.2317,0.0088,Lateral,Irregular,Unstable,Complex
+,67,Female,L ACA (2),no,4.18,2.96,2.01,1.41,2.08,44.57,26.61,2.3335,0.002,62.9,0.1868,0.0092,Lateral,Irregular,Stable,Simple
+,67,Female,L ACoA,no,2.43,2.89,2.1,0.84,1.16,22.65,12.87,3.4448,0.0678,0,0.9528,0.0027,Bifurcation,Regular,Stable,Simple
+,67,Female,L MCA,no,2.99,3.65,2.45,0.82,1.22,31.27,16.88,4.7391,0.0024,6.3,0.6284,0.0741,Lateral,Regular,Stable,Simple
+,67,Female,R MCA,no,2.51,3.25,2.37,0.77,1.06,20.63,12,3.5124,0.0415,0.03,0.9723,0.0074,Bifurcation,Regular,Stable,Simple
+47,56,Female,L C6,yes,8.14,4.62,5.11,1.76,1.59,144.73,146.83,2.5927,0.002,23.66,0.3971,0.0143,Lateral,Irregular,Unstable,Complex
+,56,Female,R C6,no,1.92,3.05,3.83,0.63,0.5,15.63,8.62,3.0794,0.0394,0,0.9291,0.002,Lateral,Regular,Stable,Simple
+,56,Female,R C7,no,3.56,4.02,3.65,0.89,0.98,33.47,29.68,3.0713,0.0022,12.1,0.6222,0.0429,Bifurcation,Regular,Stable,Simple
+48,46,Female,L MCA,yes,4.26,1.73,1.88,2.47,2.27,27.21,10.75,2.2564,0.0017,57.01,0.2461,0.0044,Lateral,Irregular,Stable,Simple
+,46,Female,R C6,no,2.24,3.45,3.42,0.65,0.66,18.08,12.11,2.2843,0.0105,0,0.7017,0.0116,Lateral,Regular,Stable,Simple
+,46,Female,R C4,no,3.5,3.18,5.04,1.1,0.69,31.67,20.04,4.8822,0.0248,0.27,0.8851,0.0039,Lateral,Regular,Stable,Simple
+49,62,Female,L C7  ,yes,4.56,3.25,3.2,1.4,1.43,43.56,34.27,2.7784,0.004,0.67,0.6289,0.0412,Bifurcation,Regular,Stable,Simple
+,62,Female,R C7,no,4.38,4.99,3.85,0.88,1.14,69.8,60.35,2.4252,0.0369,0.16,0.7589,0.0198,Lateral,Regular,Stable,Simple
+50,73,Female,R C7,yes,6.73,4.86,3.28,1.39,2.05,156.01,182.6,2.8431,0.0053,5.39,0.4325,0.0027,Bifurcation,Irregular,Unstable,Complex
+,73,Female,L C7,no,5.61,3.54,3.2,1.59,1.75,73.47,75.12,4.9409,0.0522,0,0.9827,0.0048,Bifurcation,Regular,Stable,Simple
+51,68,Male,L MCA,yes,9.14,5.22,3.45,1.75,2.65,170.06,256.24,2.2973,0.0016,3.06,0.4443,0.0567,Bifurcation,Irregular,Unstable,Complex
+,68,Male,R MCA,no,6.86,5.65,3.33,1.21,2.06,144.06,188.5,3.3548,0.0033,8.67,0.3173,0.0109,Bifurcation,Regular,Stable,Simple
+52,44,Female,R C7,yes,4.34,2.9,2.99,1.5,1.45,41.23,23.9,1.5002,0.0089,44.88,0.2432,0.0096,Lateral,Irregular,Unstable,Complex
+,44,Female,R MCA,no,3.18,2.91,2.24,1.09,1.42,29.29,26.19,2.9014,0.0959,0.02,0.9762,0.0086,Bifurcation,Regular,Stable,Simple
+,44,Female,L C7,no,2.24,2.45,2.77,0.92,0.81,12.6,4.72,3.7448,0.0015,12,0.7814,0.0083,Lateral,Irregular,Stable,Simple
+53,55,Female,L C7  ,yes,7.29,3.21,2.29,2.27,3.19,81.79,59.25,2.57,0.0025,37.92,0.352,0.0034,Bifurcation,Irregular,Unstable,Complex
+,55,Female,R C6,no,1.77,2.9,3.15,0.61,0.56,18.35,7.91,2.9551,0.0855,0.01,0.9965,0.002,Lateral,Regular,Stable,Simple
+54,57,Female,L C7  ,yes,10.21,7.28,1.72,1.4,5.94,262.76,415.27,4.6076,0.0028,0.94,0.5787,0.0075,Lateral,Irregular,Unstable,Complex
+,57,Female,R C7,no,3.96,4.26,2.07,0.93,1.91,46.53,34.06,3.0952,0.0062,0.32,0.8303,0.0075,Lateral,Regular,Unstable,Complex
+55,61,Female,L ACoA,yes,4.33,2.92,2.47,1.48,1.75,30.52,21.15,2.0497,0.0073,20.1,0.2348,0.0018,Bifurcation,Irregular,Stable,Simple
+,61,Female,L C6,no,1.08,2.96,4.55,0.37,0.24,9.41,4.67,2.5019,0.1285,0,1.0168,0.0005,Lateral,Regular,Stable,Simple
+56,76,Female,R C7,yes,10.36,9,5.15,1.15,2.01,372.75,782.46,2.7286,0.025,0.07,0.6421,0.0118,Bifurcation,Irregular,Unstable,Complex
+,76,Female,R ACoA,no,3.66,3.55,3.04,1.03,1.2,31.72,25.58,2.9199,0.0307,0.84,0.7036,0.0032,Bifurcation,Irregular,Stable,Simple
+,76,Female,L C7,no,3.83,5.1,4.09,0.75,0.94,33.62,49.83,4.4951,0.1602,0.36,1.181,0.0034,Bifurcation,Regular,Stable,Simple
+57,54,Female,BA,yes,4.36,3.35,2.78,1.3,1.56,52.19,40.45,4.8054,0.0222,1.53,0.8726,0.037,Bifurcation,Irregular,Unstable,Complex
+,54,Female,L C7,no,2.86,2.99,4.13,0.96,0.69,26.29,14.43,2.3501,0.001,32.92,0.351,0.0147,Lateral,Regular,Stable,Simple
+58,59,Male,R ACoA,yes,7.57,5.09,3.13,1.49,2.42,116.86,137.28,2.7653,0.0195,0.82,0.6627,0.0593,Bifurcation,Regular,Stable,Simple
+,59,Male,R C7,no,2.96,3.62,4.93,0.82,0.6,31.75,21.34,3.4235,0.0445,0.1,0.8719,0.0078,Lateral,Regular,Stable,Simple
+59,59,Female,R C7,yes,6.29,4.42,3.45,1.43,1.82,98.59,93.59,2.2145,0.004,0.95,0.4394,0.0201,Lateral,Irregular,Unstable,Complex
+,59,Female,BA,no,1.79,3.36,3.01,0.53,0.59,18.12,10.88,2.8302,0.1773,0,0.944,0.0007,Bifurcation,Regular,Stable,Simple
+,59,Female,R PCA,no,1.65,3.13,1.92,0.53,0.86,14.26,6.97,2.9514,0.2156,0,1.0229,0.0024,Lateral,Regular,Stable,Simple
+60,58,Female,R MCA,yes,7.73,2.7,1.52,2.86,5.08,115.89,120.67,3.2175,0.0079,0.65,0.6837,0.0084,Bifurcation,Irregular,Unstable,Complex
+,58,Female,R C6,no,2.51,3.5,2.25,0.72,1.12,24.62,15.34,2.7868,0.0421,0,0.8975,0.0085,Lateral,Regular,Stable,Simple
+,58,Female,R C6,no,2.53,3.55,2.25,0.71,1.12,25.07,15.72,2.5991,0.0344,0,0.9397,0.0048,Lateral,Regular,Stable,Simple
+61,64,Female,R C7,yes,6.04,4.29,3.39,1.41,1.78,78.11,63.76,2.4704,0.0056,10.91,0.3473,0.0522,Bifurcation,Regular,Stable,Simple
+,64,Female,L C7,no,2.57,3.63,3.55,0.71,0.72,27.6,15.18,4.0487,0.0104,0,0.9474,0.0086,Bifurcation,Regular,Stable,Simple
+62,78,Female,L ACoA,yes,9.58,7.29,3.34,1.31,2.87,253.21,401.71,2.7532,0.0016,9.41,0.4578,0.1489,Bifurcation,Irregular,Unstable,Complex
+,78,Female,L C7  ,no,10.4,9.11,5.03,1.14,2.07,216.13,412.36,3.2543,0.01,0.72,0.8328,0.0211,Lateral,Irregular,Unstable,Complex
+,78,Female,L C6,no,2.27,3.75,5.77,0.6,0.39,27.33,15.99,3.2984,0.0418,0,1.1185,0.0087,Lateral,Regular,Stable,Simple
+63,60,Female,L ACoA,yes,7.16,3.93,2.79,1.82,2.56,113.04,118.58,3.5059,0.0179,0.92,0.4433,0.0076,Bifurcation,Irregular,Unstable,Complex
+,60,Female,L C7,no,2.66,3.26,3.91,0.82,0.68,26,14.12,2.0833,0.039,0.39,0.5862,0.0027,Lateral,Regular,Stable,Simple
+64,40,Female,L ACoA,yes,2.12,1.86,2.37,1.14,0.9,12.25,4.36,2.1543,0.0138,6.05,0.2466,0.0022,Bifurcation,Regular,Stable,Simple
+,40,Female,R C6,no,3.23,3.05,3.33,1.06,0.97,25.34,16.19,2.6386,0.0222,0.14,0.9622,0.002,Bifurcation,Regular,Stable,Simple
+65,28,Female,L C7  ,yes,10.85,5.31,3.54,2.05,3.06,257.79,355.36,3.4374,0.0008,12.68,0.3328,0.0454,Lateral,Irregular,Unstable,Complex
+,28,Female,R C7,no,1.36,2.21,3.09,0.62,0.44,5.93,3.16,1.6504,0.023,0.11,0.5927,0.0223,Bifurcation,Regular,Stable,Simple
+66,75,Female,R MCA,yes,9.53,6.24,2.26,1.53,4.22,197.68,268.04,4.0884,0.0002,9.43,0.6329,0.0198,Bifurcation,Irregular,Unstable,Complex
+,75,Female,R ACA,no,3.57,4.95,2.56,0.72,1.39,63.25,58.47,3.9664,0.1268,0.01,1.0054,0.0062,Lateral,Regular,Stable,Simple
+67,62,Female,R C7,yes,2.24,2.77,3.37,0.81,0.66,12.71,6.49,2.7718,0.0281,1.1,0.7256,0.0289,Bifurcation,Regular,Stable,Simple
+,62,Female,R MCA,no,2.7,3.69,2.45,0.73,1.1,29.86,17.39,3.0946,0.0353,0,0.7683,0.008,Bifurcation,Regular,Unstable,Complex
+68,71,Male,R C7,yes,7.67,3.88,2.38,1.98,3.22,119.8,126.24,3.173,0.0131,0.77,0.6886,0.0193,Lateral,Irregular,Unstable,Complex
+,71,Male,L C7  ,no,2.46,3.16,2.9,0.78,0.85,24.83,15.63,3.2297,0.0739,0,0.9848,0.0013,Bifurcation,Regular,Stable,Simple
+69,59,Male,R ACoA,yes,7.64,3.9,2.55,1.96,2.99,92.17,77.46,2.603,0.0051,5.24,0.4715,0.0055,Bifurcation,Irregular,Unstable,Complex
+,59,Male,R C7,no,2.57,3.66,3.81,0.7,0.68,29.37,16.42,2.9605,0.2305,0,1.0567,0.0012,Lateral,Regular,Stable,Simple
