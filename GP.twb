@@ -1,0 +1,707 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.20.0221.0754                               -->
+<workbook original-version='18.1' source-build='2019.4.4 (20194.20.0221.0754)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Supplemental_Spreadsheet (Supplemental_Spreadsheet dataset jadid)' inline='true' name='federated.1h05yfz1i3un3c1cskb880j3281l' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Supplemental_Spreadsheet dataset jadid' name='excel-direct.0iklupi0a35kcm1172ayc1hduzwm'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Snapp-Kitchen/Desktop/Graduate Project/Supplemental_Spreadsheet dataset jadid.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0iklupi0a35kcm1172ayc1hduzwm' name='Supplemental_Spreadsheet' table='[Supplemental_Spreadsheet$]' type='table'>
+          <columns gridOrigin='A1:AA227:no:A1:AA227:0' header='yes' outcome='6'>
+            <column datatype='string' name='Rupture Status' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='string' name='Sex' ordinal='2' />
+            <column datatype='string' name='Location' ordinal='3' />
+            <column datatype='real' name='Maximum Size' ordinal='4' />
+            <column datatype='real' name='Projection Length' ordinal='5' />
+            <column datatype='real' name='Neck Width' ordinal='6' />
+            <column datatype='real' name='Aspect Ratio' ordinal='7' />
+            <column datatype='real' name='Projection Ratio' ordinal='8' />
+            <column datatype='real' name='Size Ratio' ordinal='9' />
+            <column datatype='real' name='Dome Volume' ordinal='10' />
+            <column datatype='real' name='Dome Area' ordinal='11' />
+            <column datatype='real' name='Volume-to-Ostium Area Ratio' ordinal='12' />
+            <column datatype='string' name='Irregular Shape' ordinal='13' />
+            <column datatype='real' name='Wall Shear Stress' ordinal='14' />
+            <column datatype='real' name='Normalized Wall Shear Stress' ordinal='15' />
+            <column datatype='real' name='Oscillatory Shear Index' ordinal='16' />
+            <column datatype='integer' name='Wall Shear Stress Gradient' ordinal='17' />
+            <column datatype='real' name='Gradient Oscillatory Number' ordinal='18' />
+            <column datatype='real' name='Low Shear Area Ratio' ordinal='19' />
+            <column datatype='real' name='Standardized Pressure Difference' ordinal='20' />
+            <column datatype='real' name='Oscillatory Velocity Index' ordinal='21' />
+            <column datatype='real' name='Neck Pressure Loss Coefficient' ordinal='22' />
+            <column datatype='integer' name='Neck Energy Loss' ordinal='23' />
+            <column datatype='real' name='Flow Velocity' ordinal='24' />
+            <column datatype='string' name='Complex Flow Pattern' ordinal='25' />
+            <column datatype='string' name='Unstable Flow Pattern' ordinal='26' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Rupture Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Rupture Status]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Rupture Status</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sex</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sex]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Sex</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Maximum Size</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Maximum Size]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Maximum Size</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Projection Length</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Projection Length]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Projection Length</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neck Width</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neck Width]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Neck Width</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aspect Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Aspect Ratio]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Aspect Ratio</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Projection Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Projection Ratio]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Projection Ratio</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Size Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Size Ratio]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Size Ratio</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dome Volume</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dome Volume]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Dome Volume</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dome Area</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dome Area]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Dome Area</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Volume-to-Ostium Area Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Volume-to-Ostium Area Ratio]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Volume-to-Ostium Area Ratio</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Irregular Shape</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Irregular Shape]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Irregular Shape</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wall Shear Stress</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wall Shear Stress]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Wall Shear Stress</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Normalized Wall Shear Stress</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Normalized Wall Shear Stress]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Normalized Wall Shear Stress</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oscillatory Shear Index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Oscillatory Shear Index]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Oscillatory Shear Index</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wall Shear Stress Gradient</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wall Shear Stress Gradient]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Wall Shear Stress Gradient</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gradient Oscillatory Number</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gradient Oscillatory Number]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Gradient Oscillatory Number</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Low Shear Area Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Low Shear Area Ratio]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Low Shear Area Ratio</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Standardized Pressure Difference</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Standardized Pressure Difference]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Standardized Pressure Difference</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oscillatory Velocity Index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Oscillatory Velocity Index]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Oscillatory Velocity Index</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neck Pressure Loss Coefficient</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neck Pressure Loss Coefficient]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Neck Pressure Loss Coefficient</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neck Energy Loss</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Neck Energy Loss]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Neck Energy Loss</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Flow Velocity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Flow Velocity]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Flow Velocity</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Complex Flow Pattern</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Complex Flow Pattern]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Complex Flow Pattern</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unstable Flow Pattern</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Unstable Flow Pattern]</local-name>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias>Unstable Flow Pattern</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Supplemental_Spreadsheet]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AA227:no:A1:AA227:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Aspect Ratio]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='real' name='[Size Ratio]' role='measure' type='quantitative' />
+      <column-instance column='[Age]' derivation='Avg' name='[avg:Age:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Aspect Ratio]' derivation='Avg' name='[avg:Aspect Ratio:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Size Ratio]' derivation='Avg' name='[avg:Size Ratio:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Aspect Ratio]' derivation='Sum' name='[sum:Aspect Ratio:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.288413' measure-ordering='alphabetic' measure-percentage='0.711587' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1h05yfz1i3un3c1cskb880j3281l].[avg:Age:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1h05yfz1i3un3c1cskb880j3281l].[avg:Aspect Ratio:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1h05yfz1i3un3c1cskb880j3281l].[sum:Aspect Ratio:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1h05yfz1i3un3c1cskb880j3281l].[avg:Size Ratio:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Supplemental_Spreadsheet (Supplemental_Spreadsheet dataset jadid)' name='federated.1h05yfz1i3un3c1cskb880j3281l' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1h05yfz1i3un3c1cskb880j3281l'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Aspect Ratio]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Irregular Shape]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Location]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Rupture Status]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Size Ratio]' role='measure' type='quantitative' />
+            <column-instance column='[Age]' derivation='Avg' name='[avg:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Aspect Ratio]' derivation='Avg' name='[avg:Aspect Ratio:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Size Ratio]' derivation='Avg' name='[avg:Size Ratio:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Irregular Shape]' derivation='None' name='[none:Irregular Shape:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Rupture Status]' derivation='None' name='[none:Rupture Status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Aspect Ratio]' derivation='Sum' name='[sum:Aspect Ratio:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1h05yfz1i3un3c1cskb880j3281l].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1h05yfz1i3un3c1cskb880j3281l].[avg:Age:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1h05yfz1i3un3c1cskb880j3281l].[avg:Size Ratio:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1h05yfz1i3un3c1cskb880j3281l].[none:Irregular Shape:nk]' direction='DESC' measure-to-sort-by='[federated.1h05yfz1i3un3c1cskb880j3281l].[sum:Aspect Ratio:qk]' shelf='columns' />
+            <shelf-sort-v2 dimension-to-sort='[federated.1h05yfz1i3un3c1cskb880j3281l].[none:Location:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1h05yfz1i3un3c1cskb880j3281l].[avg:Aspect Ratio:qk]' shelf='columns'>
+              <sort-filter-info>
+                <sort-filter level-name='[federated.1h05yfz1i3un3c1cskb880j3281l].[none:Rupture Status:nk]' member-value='&quot;ruptured&quot;' />
+              </sort-filter-info>
+            </shelf-sort-v2>
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1h05yfz1i3un3c1cskb880j3281l].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.1h05yfz1i3un3c1cskb880j3281l].[none:Rupture Status:nk] * [federated.1h05yfz1i3un3c1cskb880j3281l].[avg:Aspect Ratio:qk])</rows>
+        <cols>([federated.1h05yfz1i3un3c1cskb880j3281l].[none:Irregular Shape:nk] / [federated.1h05yfz1i3un3c1cskb880j3281l].[none:Location:nk])</cols>
+      </table>
+      <simple-id uuid='{A417056C-9370-4937-8846-80979266940B}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1h05yfz1i3un3c1cskb880j3281l].[:Measure Names]</field>
+            <field>[federated.1h05yfz1i3un3c1cskb880j3281l].[avg:Age:qk]</field>
+            <field>[federated.1h05yfz1i3un3c1cskb880j3281l].[none:Irregular Shape:nk]</field>
+            <field>[federated.1h05yfz1i3un3c1cskb880j3281l].[none:Location:nk]</field>
+            <field>[federated.1h05yfz1i3un3c1cskb880j3281l].[none:Rupture Status:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{89C55C34-7A6F-414D-98DE-356FE6AD05D1}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAVeklEQVR4nO3dSYwc133H8W9V9TLds/b07PvCRSTFRSIpMXK8iF6AxPbBhoMkSOAEiOEc
+      nGNyMYLkYB0CX3IJkCDIJbYDBznEsQMYtuPIikiJiyhR5HAZcvalZ+9tet+qchiqR+RQ5HRx
+      hq9n6v8BCE41+73+d7F/U9t71ZplWRZCOJCmaZquugghVJIACEeTAAhHkwAodPnq5W0+s8iN
+      Gze3PJpYmeYX//Mmo6O3uT+9tK2eLl68CMDa9DihSPITnxeLrJDMFllYXGQ/HyS6VBfgZKGF
+      EHevXCDsqSM6MU3fQDc3797n2PEXWV4M0dTeQYO7GctMsry0wofpN7m/VqKtJkPXgTM0Wwky
+      BROvUeTS5QusrB7BioyR8nbQkpsj23yQ+MwoessQv/O5VzHzMTR3IwDpeJSUO0h65Brj86u0
+      t7exGs8x1F7DpffHaWkooLecIODNMTV6k2TJT70rz9Jaii99/avU6ZritbczZAugWCqR4vCR
+      A7h9LRiZCKanlvXwMr66GsJr64zdvc384hoA98bGWF4KkS0ZHBzswqhrpi/o4f2bowwdeZF0
+      ZJqx8UUW5+fRzRzx6AKzc6vU+msAmB69z8ALhx68comZyQlml1ZpqNEYH5+mMdDM/dF7ZMLL
+      NHUO0NBQRzgSJpZIUkhEiSZLdDf4Se+jE4eanAZVJ51O49J1DK+HQraA12OwFo7g1gu8+b9v
+      88K5L9JZB15/HboGhVyGku6mxm1QU+OjVMgRjq7T1NSIhYZllsimUxheL2v3P6Dz2GsUMglK
+      uoem+lreuXiBc5/6bQxNo5jPEo7EaQo0kkhmCDTVEY2u46txkyuY1Nf5Saay1NR4oJgnb7nw
+      unQ0DVxeL4a297cAmqZpey4A+Xwej8ejuoyq97j1VCqVMAxDUUXVZ09eB0ilUqpL2BMet57k
+      w7/VnguACsV8jkLJ3NZzw+HwLlez91mWRT6fJ52Ik9/eat01chZoGzLRKDmXztLaOo0+A0v3
+      kF6P0djayfrqPNQECNR7AYhGY+ilLLOrKbrbGogl8hwY6lP8Dp6f8NIcS+tFgj5YXIuhaTp9
+      fd3MzIbo7etlcW6W+oZGxqemGe5uYzU5waGjJ2jyqfkoyhZgG/KZDNlkjKaufnL5Iq01JaYW
+      w0TWVvDUBinlEkTCYRYWF4GNrcDcxASr8SR9fT2Kq3++LMtkPRojber0tgfoaWvh3swiQwM9
+      jN2/R7Czj1Qmy9BAP3W1tRwZ6iSeLiqrV7YA21Df1o5fs9A9bkrd3fh8Po70pfE1t3Pz3Tep
+      6z3GUEsNGS1IS6OfUi4J3gAdHUE8Lmf9jqnx+WlpM+hoC+LSLEDnVDDI7NQML58+S2hqgv6h
+      A8SW53A3tODzuWi13MrqLZ8FKhQKFIvqkrhdiUSC+vp61WVUPVlPT+f3+/feWSAhdlJ5F8jt
+      duN2q9sUbVc2m8Xn86kuo+rJetoe2QIIR5MACEfbs2eB4sksK7HKrwoHG/w0N8iugdiwZwPw
+      7u15/umn1ypu98dfPM7vvX5sFyoSe9GeDcBO+sefXiOZzlXURtM0/vIPXtulisTzIgEArt4N
+      EVnPVNRG09gSgLmVODcnlit+/YM9QQ71BituJ56dBGAH3ZsL88///UHF7X7//DEJgCJyFkg4
+      WtUFwDJLLCw8mOBtWSzMThBajqgtSuxbVbcLVMhlWE+n6QKwivgb21haXMRqC5SfY5om2JzI
+      Zn3Ufgds6cduTZa1pa+LI3Okc4WK+/ri6SE+mq24U+9zP6u6AHh8dfg8DyaVaDrxyAo9A4PA
+      xn+oZVnlP3Y8S9vH9fWk5e13tLXtj351k+Vo5dc5Xj/Vj8vQy+/zR7+6yQ0bB+bf+dpZBjqa
+      Km6311RdADLrEVZXVjHcPhr8LmLxddKlEEcODGAYBpqmbfyt29t70x+03wmP9mO3Jk1/TE02
+      55wbhoFh6OX1tBJLM7EQq7ifQtFyxBTKqguAr6GZM2eay8snTzU/4dlCPJuqOwgW4nmSAAhH
+      kwAIR6u6YwBRnbL5IremVipu1+D3VvVVbgmA2JbIeobv/evbFbc7MdzG9/7s/C5UtDNkF0g4
+      mgRAOJoEQDiaBEA4mgRAOJoEQDha1QUgn0kwOjb5YMlkYvQWU/OVj2YUYjuq7jqAy+vH69nI
+      pZWJYdV3UUyvYZqtmKaJaZoUCgVMs2Sr/4/aP8TmMOZH+zG3+R0C26vJVlcUi0UsU9tcTzbf
+      W6lUeqgmu/eNtUxr63urIlUXAMs0yWYyZHN5XJpBNhFGM010XS//cbvd6Lq9oboftX+Ize+7
+      erQf3bA5RPuxNdnqCpfLhcv42Hqy+d4Mw3ioJpfL3kdF07WqvuVm1QWgmM/gcXtIJNPU+mvo
+      Dvox/N2qyxL7VNUFwOtvYHi4obzs93UorEbsd1V3ECzE86QsANlsVtVLC1GmLADf//73Vb20
+      EGVKd4F+/OMfE4tVPmFbiJ2iNADhcJjLly9z8eJFlWUIB1N2Fui73/0usHGXZSFUUbYFcLlc
+      WMUcMzNzmHIySiii9JN3/fK7JONzXLkxp7IM4WBKAzA4PMjSSppDB9pVliEcTFkAMusRZuaX
+      yeXzpJJpVWUIh1N3DODxMDs1R3tHPaurCVVlCIdTFgDd5aZ/oIdiycfB4c1doHRshffee4+l
+      cAJKWW588AEjoxOqyhT7nLLToIbLi1mIMT21hlHbw6vHN0Z8rsZSnDp1ktnQIgTaKRSKGMVi
+      eS6AzAd4MpkPUBmlo0GHj53FNG7TEqgpP9boc/HB9Q9p7+ojHotRtKCYzcp8gG2S+QCVURaA
+      sQ8uMjK7QjKepvXAmfLjTW09vNLWU15+9VU5QyR2j7IApBJZNMMilcqhWR/bndE0u7/8hKiY
+      sgCc+uwXOKXqxYV4QFkAivkM//frt+gZbieRa+XMiV5VpQgHU3gl2GI9FiNb0GhpaXj604XY
+      BQovhPk5MNxFeGmBWDKnqgzhcEpPg3Z0d5BZSNDcUPP0JwuxC7a9BUgmYuQKT77QMx8KVfTi
+      c1Nj3Lh2jfnFeEXthNgpW7YAC5P3CRc0vJqBoRfJZ5IkMgU0TLwNXfhcOSw0zGwSd42fa1eu
+      0X3oOH49S1H309O9/Xv49PQd4O5sihcOd+7omxLV7d5cmBUbXwJ+fKiNprqd3VvYEgCXp5bD
+      Q53cfe8qiaJBkw8Mw0V7RwvxJCQiq6TMGgZ7O+gK1rK8doju9iDhlRBuT2V7VNNT85x79SBv
+      /+Y6X/3yWfb/1zILgJ9fHuOt69MVt3vjW6/vfgDaejZ+g588ew6AWCxGU1MTABvXZ/sfev5r
+      585uPNpX+d3bOnt7GL03RkfnQbtDX4R4Jk89Bvjow78bQtPTRNJr5HOu6rtFnXAEZadBLcvi
+      1Kvn6A120tzR8PF/wDRNrAejGC3LKv8sxE5T9ov39qVf8/btBeprm/ijz7WWH48uzzM2t0hb
+      9xADHY1cf/86gc5+BntkUJzYecoCcPTV16ltuc+de2PMLcfp79jY1VrPFnnp1ElmQ0uQ00nk
+      QYtFMbvk+wG2Yy/MB7BMe+vp0Zp2grIA6IaLwUNHGTx0mExm88Pc1lTHhzdG6O0fZr3koqPR
+      S1Y3ZD7ANu2F+QCabm89PVrTTlB67FkqFimZGeKxIj6fBwBfUytnz2zuEjW8eFJVeaLK5QpF
+      bo5X/vVZdX4PR/o3PmNKA3D1N78kSZ5LV1b5q7/+Nj6VxYg9J57K8cYPL1Tc7kh/C3/3518A
+      FN8XqG9ogHxW5zOvvyIXwYQSSgNglixq6hs5euQgHpWFCMdSGwAscukUmYK9MwxCPCtlAchn
+      U6yuRVhdWbN9ik2IZ6UsAJMj17gfiqAbPrpaG1WVIRxO2VmgF85+lsOnS4Rmp1hPZPAF61WV
+      IhxM6WlQTTfoGTigsgThcPLNFMLRJADC0SQAwtEkAMLRqi4A66shrly9wuxSFIDwwjRXb9xR
+      XJXYr6puJmI0nef0Sy8xE1rCLHhZjOWo0Uvy/QDb5KT5ACW7NVmbNVVdAIJ1Pj748AbdfYPE
+      kxl8Hp2lcE7mA2yTk+YDGHZr0jZrqroA1AU7eCXYUV4OBIIMy6UCsUuq7hhAiOdJAiAcTQIg
+      HE0CIBxNAiAcTQIgHE0CIBxNAiAcTQIgHE0CIBxNAiAcrfoCYJmE19YomRZgkYxHSaQyqqsS
+      +1TVBWA1NEMkHmMmtAJmkdh6isnJKdVliX2q6kaDposW/b29G98PoLvQrTw9ff0yH2CbZD7A
+      Nmqq5vkAXW3N3By5xcDwYdbjYUJLEeryOsHGAZkPsA0yH2AbNVXzfAC3v4nTp08/WKrj7Cst
+      SusR+1vVHQMI8TxJAISjSQCEo0kAhKNJAISjSQCEo0kAhKNJAISjVV8ALJO11dUHg+EgGY+Q
+      yuYVFyX2q6oLwGpohlhinenQMhRSTM6tMDkxqbossU9VXQDSRYu+nh6sYharmKW2uQOfV75G
+      W+yOqgtAV1szIyO3CDS3kCh5KUVnwFOnuiyxT5UHwxWLxer4vl69hmPHjpUX+4YPA5DNZoGN
+      IcjZbBaDEoFa92O7eBK3bpX7+kiT34VVqqwvXWNLP4a1czU1+lzkbfSVy+Uo6lp5Pfncmq2a
+      zFLhoZqKhbytfmo9+pb35nNhqy+rVHy4pry9muq8mzVplrUxYLxQKFRHAJ4ikUhQXy9fqfo0
+      sp6ezu/3a+UtgNvt3jomvQpls1l8Pp/qMqqerKftqbpjACGeJwmAcDQJgHA0CYBwNAmAcDQJ
+      gHA0CYBwNAmAcLSqC0AuFefW6NjGgllg9PYId8emldYk9q+quzGWt7aRen9sY0FzMTQ0wOxS
+      bMutEcWTyXranqoLQCGXIRwOEwi04HVbjNy+T9/gcPm2iI+9jaDYQtbT9lRdAAC6Ors2ftBc
+      9Pf12L5PphBPU3UBcHt9dHRsDuJqbatRWI3Y76ruIFiI50kCIBxNAiAcTQIgHK3qDoLFhu/8
+      /c9ZjiYrbvfvf/sNXDa/qcaJJABVqlAqUSja+y4tsX3yq0I4mgRAOJoEQDiaBEA4mgRAOFrV
+      BSCXivP+jdsbC2aeG+9fY2R0Qm1RYt+qutOg3tpGWgIb8wGs7Dr13Ycgveq8+QCWvWbFYhHL
+      1Jyznp5R1QUgsx5hYnwcw+2jodZNbG4UozbgvPkANoeAu1wuXIaD1tMzqroA+BqaOX/+8+Xl
+      l8++orAasd9V3TGAEM+TBEA4mgRAOJoEQDha1R0Eq/BfF0ZJ5yo7ZagBf/iF47tTkHhu9mwA
+      3ro+zQ9/dbPidl/7zAt85bcOPfTYT9+5R2Q9U1E/miYB2A/2bAAy+SJr8XTl7bK7d3Ho1tQK
+      v7w6XnG7c8d6+dSLvbtQkXgapQEIL0zx3o17nP30eYJ1HpWl7IilSJK3b8xW3K4zWC8BUERp
+      AMbvjTPQH+DO6CKfPtOvshSxB0UTGd74wYWK2w12NvEXX9+4wKosAKVCnuGjR5mYXuDUiS5V
+      ZYg9rFAyGQ9FKm7ndm2e/FR2GrRUyDM/M0c+n2JpJaaqDOFwygJgWjkuXbhEOLpGOlva/AfL
+      Ip1KYVoWYJHLpMkVqv8LvMXepCwANbVBfvcr5/F76gkEasuPhxdnmZiaZCa0CsUUN2/f4/bd
+      +6rKFPuc0oPg1ZUlYqsh5uaj9LXVA5DMm7xw6BAzoSUs6jAwQdO3zAcwzdJTen+8x46Tt+wN
+      vn+0H7Nk7zYmj6/JVle7Nh8gkc7zkwt3K27X0VzPl84O7VgdH1cq2tszsCyrvG6UBaCYS2HV
+      tPDaZwbJsHkH6I5gAzdujtA3dJBEKovLZaC53VvmA+i6Yet1HztOXrM3+P7RfnSbN6R6fE22
+      utoyH+Af/vMqV+6GKu7nb/7kMxzsCZaXs4UsP3u38mscJ4bb+PJrhytutx2Gy97HV9O08vpW
+      FoCRS5eo7+3gJz97hz/99jfLj3vrg5w5s7niT5xqVlHevpHJFVhP5SpuVyrZ3ATtMcqOAZpa
+      m5kcm6G7K0AkmlBVhnA4ZVuAwWMv0zWcxeN1k8vJLQCFGsoCkEtF+MG//BudB7rpHDjH6WNy
+      MUw8f8p2gTz+AMdPnuBz5z9NjcxKEIoo++hpmkZ3d4ALb16hvrVJVRnC4XY1ABvn6z/5bEI2
+      HafGX0dkJb6bZQjxibYEIJNOUyjkSSWTzE5NkEjnia4uE47GKeYzJJMpJianiEWXeOed94ms
+      JykWsiTTGVaWV0jEwswvrW3c4e3DG+QLn3zBStMNxu+M4q717uqbFOKTbDkIXpqbp6m1iYWF
+      FRpb21mamyWdS9Ho8+LKuZiPmNS2NLO0tkZrazvLiyFcLX5mV9L4ahqZun+LvFZHoq2Rttbg
+      416zrFTU6e7vxOPes/NyxB63ZQvQHKhlcmqe+kALwUATgUADfX39NDbUMjG3Rq0bZmfnaWnr
+      ppCJUOf3Mj67QlNzkO7OFjq7umgOBqj3uojEkhj6J+9lrceiYJR4+xdvkd/VtynE42351dvY
+      1s3ptu7ysq+t7cFPTQTaeynlc3S7vLh1aDl5AoDe3oHy8/uGXyj/3POUOS5dQ0dgfoLDJ86w
+      9+eDib2o4n0Pw+PF3iicraJLs0SzGbRwArobd6hXUe1Cq+vEbQzP6O9opLZmZ39VqpsRVsxR
+      1HSW5yMMHfZt/oNVZOz+BP0HDuExNKIrIdaLHvq7WlWVKnbYf7x1h7euT1fc7o1vvc7xofYd
+      rUXZdYDRaxcZmVzB8NTT17F5HWBhZprmtlZmZkNQTDG1GKc10IBlWVgPhi1blmV7CLP1oP3H
+      /9i1pR+bXW28nZ3q6+H1ZPfdWVg7s54e+95s/t890pfdfjb62mirbAtw7NznOfpKkenxe6xF
+      U3S1NgBgouH1eIAklIpks1lG7tzllZdPlucDlEol2/8hlmVRKj1yatbmeny0H9OyN6bJssyt
+      NdlkmiYlrPJ6svshKbf/2LIdFlvXk+1Q7lRNH/sMKD3/qOkuBg8Ns7iweVOqzq5O7oxOMHDg
+      AOsFi/72erJ6HZqmYRgGuq7jcrnQnnB26Ul0TcP16DjyZxh7/1Dfdmt68J52oibDMMrzAVwu
+      F5rNuQ6GbjxUk2HYO/LTtK3ryW5NuvHwetJt17T5GVAagOW5ce6Mz+Br7KKzKwCA4fFz/MTm
+      Hdca6g6qKk84gNJhaDOTcxw93MWlX18lqbIQ4VhKAzB0YIBb91b4xje/jF9lIcKx1A5E1jSi
+      S9PE05bcp10oofRzl0wkGDjyEl0ttU9/shC7QNlB8OLkXW7dn2Z8fJqu3t25bYYQT6NsC+D2
+      1uD3+/D5ap7+ZCF2ibItQEv3IOe7B3n9fIlCQSbFCzWUD8TXNAOPZ6eG1wlRmf8HzNV31K6T
+      OtEAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
